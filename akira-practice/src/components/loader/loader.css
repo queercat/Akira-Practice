@@ -16,20 +16,16 @@
 }
 
 @media screen and (max-width: 800px) {
-    .loader-container {
-        width: 50vw;
-        height: 50vh;
+    .loader {
+        transform: scale(.4);
     }
 }
 
 @media screen and (max-width: 450px) {
-    .loader-container {
-        width: 25vw;
-        height: 25vh;
+    .loader {
+        transform: scale(.25);
     }
 }
-
-
 
 .loader {
     animation-name: spin;
