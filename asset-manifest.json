@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b51d880a.css",
+    "main.js": "/static/js/main.1fa30595.js",
+    "static/js/787.1b64b619.chunk.js": "/static/js/787.1b64b619.chunk.js",
+    "static/media/Akira Expanded Demo.otf": "/static/media/Akira Expanded Demo.5198553380d9bb727554.otf",
+    "index.html": "/index.html",
+    "main.b51d880a.css.map": "/static/css/main.b51d880a.css.map",
+    "main.1fa30595.js.map": "/static/js/main.1fa30595.js.map",
+    "787.1b64b619.chunk.js.map": "/static/js/787.1b64b619.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b51d880a.css",
+    "static/js/main.1fa30595.js"
+  ]
+}
