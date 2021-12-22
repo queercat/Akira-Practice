@@ -1,17 +1,22 @@
 import './App.css';
 
-import Akira from './components/akira/akira'; 
+import {Akira, ReverseAkira } from './components/akira/akira'; 
 import Loader from './components/loader/loader';
 
-function App() {
+import {useEffect} from 'react'
+import GlassyCard from './components/glassycard/glassycard';
 
+function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="App">
       <Loader/>
       <Akira/>
-      <div className="reverse-akira">
-
-      </div>
+      <ReverseAkira/>
+      <GlassyCard/>
     </div>
   );
 }
