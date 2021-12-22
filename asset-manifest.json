@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Akira-Practice/static/css/main.eb8e2ab4.css",
-    "main.js": "/Akira-Practice/static/js/main.dfacfe12.js",
+    "main.js": "/Akira-Practice/static/js/main.f28fc640.js",
     "static/js/787.1b64b619.chunk.js": "/Akira-Practice/static/js/787.1b64b619.chunk.js",
     "static/media/Akira Expanded Demo.otf": "/Akira-Practice/static/media/Akira Expanded Demo.5198553380d9bb727554.otf",
     "index.html": "/Akira-Practice/index.html",
     "main.eb8e2ab4.css.map": "/Akira-Practice/static/css/main.eb8e2ab4.css.map",
-    "main.dfacfe12.js.map": "/Akira-Practice/static/js/main.dfacfe12.js.map",
+    "main.f28fc640.js.map": "/Akira-Practice/static/js/main.f28fc640.js.map",
     "787.1b64b619.chunk.js.map": "/Akira-Practice/static/js/787.1b64b619.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb8e2ab4.css",
-    "static/js/main.dfacfe12.js"
+    "static/js/main.f28fc640.js"
   ]
 }
