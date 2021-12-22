@@ -1,0 +1,50 @@
+.loader-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+    transition: .3s;
+
+    background: black;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    z-index: 999;
+}
+
+.loader {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    transition: .3s;
+}
+
+img {
+    border-radius: 200px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pop {
+    from {
+        transform: scale(1.1);
+        transform: translate(0);
+    }
+
+    to {
+        transform: scale(0);
+        transform: translate(0, -200%);
+    }
+}

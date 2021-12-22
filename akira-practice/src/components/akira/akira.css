@@ -1,0 +1,35 @@
+.akira {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(90deg, #000000 0% 50%, #FFFFFF 50% 100%);
+}
+
+.akiragraphics {
+    position: fixed;
+}
+
+.akirabike {
+    position: absolute;
+    z-index: 1;
+
+    left: calc(5%);
+    top: calc(5%);
+    border: 2px white; 
+}
+
+.akiratext {
+    font-family: Akira;
+    color: white;
+    font-size: 128px;
+    text-shadow: 0px 100px black;
+    transform: scale(1, 1);
+
+    left: calc(50% - 300px);
+    z-index: 0;
+}
+
+@font-face {
+    font-family: Akira;
+    src: url('../../fonts/Akira\ Expanded\ Demo.otf');
+}
