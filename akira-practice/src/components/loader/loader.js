@@ -29,7 +29,7 @@ function Loader() {
     return (
         <div ref={containerRef} className="loader-container">
             <div ref={loaderRef} className="loader">
-                <img src='/images/good-for-health.jpeg'></img>
+                <img className="loader-img" src='/images/good-for-health.jpeg'></img>
             </div>
         </div>
     )
