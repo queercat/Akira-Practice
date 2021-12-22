@@ -8,7 +8,10 @@ function App() {
   return (
     <div className="App">
       <Loader/>
-      <Akira></Akira>
+      <Akira/>
+      <div className="reverse-akira">
+
+      </div>
     </div>
   );
 }

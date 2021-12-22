@@ -5,6 +5,13 @@
     background: linear-gradient(90deg, #000000 0% 50%, #FFFFFF 50% 100%);
 }
 
+.reverse-akira {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(90deg, #FFFFFF 0% 50%, #000000 50% 100%);
+}
+
 .akiragraphics {
     position: fixed;
 }
@@ -25,8 +32,10 @@
     text-shadow: 0px 100px black;
     transform: scale(1, 1);
 
-    left: calc(50% - 300px);
+    left: calc(50% - 295px);
     z-index: 0;
+
+    position: fixed;
 }
 
 @font-face {
