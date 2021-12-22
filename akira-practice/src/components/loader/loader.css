@@ -15,6 +15,22 @@
     z-index: 999;
 }
 
+@media screen and (max-width: 800px) {
+    .loader-container {
+        width: 50vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .loader-container {
+        width: 25vw;
+        height: 25vh;
+    }
+}
+
+
+
 .loader {
     animation-name: spin;
     animation-duration: 2s;
